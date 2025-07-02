@@ -10,12 +10,12 @@ const HeroSection = () => {
 
 			{/* Heading and about part */}
 
-			<div className="flex flex-col items-center justify-center w-full px-4 gap-y-18 ">
+			<div className="flex flex-col max-w-[350px] items-center justify-center w-full  gap-y-14 ">
 				{/* Heading Part */}
 				<Heading
 					variant="h1"
 					children="Your design partner for apps, websites, brands and products."
-					customClass="px-6 "
+					customClass="px-6 md:px-0 "
 				/>
 				{/* About us part */}
 				<div className="flex flex-col gap-y-5">
