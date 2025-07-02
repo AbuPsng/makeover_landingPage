@@ -28,9 +28,9 @@ const ReviewHolder = ({ name, imageUrl, review }: ReviewHolderPropsTypes) => {
 			<Accordion type="single" collapsible>
 				<AccordionItem value="item-1">
 					<AccordionTrigger className="hover:no-underline pr-0 [&>svg]:hidden">
-						<button onClick={toggleAccordion} className="absolute top-3 right-0">
+						<div onClick={toggleAccordion} className="absolute top-3 right-0">
 							{isOpen ? <X className={clsName} /> : <Plus className={clsName} />}
-						</button>
+						</div>
 						<div className="flex flex-col gap-y-3">
 							<div className="flex items-center justify-start gap-4">
 								<div className=" w-13 aspect-square flex justify-center items-center rounded-full bg-white">
